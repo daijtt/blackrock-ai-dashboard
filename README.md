@@ -20,7 +20,6 @@ Source Code: https://github.com/daijtt/blackrock-ai-dashboard
 https://github.com/user-attachments/assets/c4387a1e-49b1-42f8-806d-bd1d386e4ac2
 
 
-
 ---
 
 ### Dashboard Screenshot
@@ -95,7 +94,9 @@ Returns are then converted into cumulative growth series to represent “growth 
 
 ### 2. AI Proxy Construction
 
-Because no free official AI index is available, a custom composite AI proxy was constructed:
+Because no free official AI index is available, a custom composite AI proxy was constructed.
+
+NVDA was selected as a proxy for AI infrastructure and semiconductor exposure, while MSFT represents enterprise AI integration and cloud-based deployment. Together, they capture both hardware and software dimensions of AI-driven growth.
 
 ```
 AIₜ = w × r_NVDA,ₜ + (1 − w) × r_MSFT,ₜ
@@ -112,7 +113,7 @@ This structure allows sensitivity testing rather than assuming a fixed AI defini
 
 ### 3. Regression & Sensitivity Analysis
 
-An Ordinary Least Squares (OLS) regression is applied to measure exposure:
+An Ordinary Least Squares (OLS) regression is used to estimate the linear sensitivity of BlackRock returns to AI proxy movements. This provides an interpretable measure of exposure (Beta) and explanatory power (R²).
 
 ```
 r_BLK,ₜ = α + β × r_AI,ₜ
@@ -128,6 +129,11 @@ Additionally:
 - Maximum drawdown captures peak-to-trough decline
 
 ---
+## Why Not Just Use Nasdaq?
+While the Nasdaq Composite is technology-heavy, it includes companies that are not directly driven by AI fundamentals. 
+
+Constructing a custom AI proxy allows for a more targeted measurement of AI-specific market exposure rather than broader technology sector momentum. This improves interpretability when evaluating BlackRock’s true sensitivity to AI-driven returns.
+
 
 ## Financial Metrics Included
 
@@ -219,6 +225,7 @@ This project demonstrates:
 - Quantitative analysis  
 - Interactive visualization design  
 - Clear communication of technical results to non-technical stakeholders  
+
 
 
 
