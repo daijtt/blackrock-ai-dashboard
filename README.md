@@ -17,10 +17,6 @@ Source Code: https://github.com/daijtt/blackrock-ai-dashboard
 ### Live Demo Video
 
 
-```markdown
-[Download Demo Video](assets/demo.mp4)
-```
-
 ---
 
 ### Dashboard Screenshot
@@ -219,5 +215,6 @@ This project demonstrates:
 - Quantitative analysis  
 - Interactive visualization design  
 - Clear communication of technical results to non-technical stakeholders  
+
 
 
