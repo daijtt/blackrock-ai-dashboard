@@ -25,7 +25,7 @@ Source Code: https://github.com/daijtt/blackrock-ai-dashboard
 
 ### Dashboard Screenshot
 
-![image_alt]((https://github.com/daijtt/blackrock-ai-dashboard/blob/ca6513862f881b7400150db6e3e4038f03865ecb/assets/dashboard-full.png))
+![image alt](https://github.com/daijtt/blackrock-ai-dashboard/blob/ca6513862f881b7400150db6e3e4038f03865ecb/assets/dashboard-full.png)
 ---
 
 ## Executive Summary
@@ -219,4 +219,5 @@ This project demonstrates:
 - Quantitative analysis  
 - Interactive visualization design  
 - Clear communication of technical results to non-technical stakeholders  
+
 
